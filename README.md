@@ -92,3 +92,18 @@ spring:
 ---
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas._
+
+
+## Hi there, my name is Guilherme Magno and I'm a software Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif"  width="40">
+
+## ENDPOINTS
+```
+CRIAR PAGAMENTO   -> POST http://localhost:8080/api/payments
+EFETUAR PAGAMENTO -> PATCH http://localhost:8080/api/payments/3
+BUSCAR TODOS      -> GET http://localhost:8080/api/payments
+BUSCA PAGINADA    -> GET http://localhost:8080/api/payments?page=0&size=3
+BUSCAR POR STATUS -> GET http://localhost:8080/api/payments/status/2
+BUSCAR POR ID     -> GET http://localhost:8080/api/payments/1
+ATUALIZAR DADOS   -> DELETE http://localhost:8080/api/payments/2
+DELETAR POR ID    -> PUT http://localhost:8080/api/payments/1
+```
