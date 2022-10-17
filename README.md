@@ -101,9 +101,9 @@ _O desafio acima foi cuidadosamente construído para propósitos de avaliação 
 **Segurança:**
 - Adição camada de segurança Basic Auth 
 
-Login
-username: user
-password: **usar token gerado pelo security - log da aplicação**
+Login:
+- username: user
+- password: **usar token gerado pelo security - log da aplicação**
 
 ```
 CRIAR PAGAMENTO   -> POST http://localhost:8080/api/payments
