@@ -97,6 +97,14 @@ _O desafio acima foi cuidadosamente construído para propósitos de avaliação 
 ## Hi there, my name is Guilherme Magno and I'm a software Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif"  width="40">
 
 ## ENDPOINTS
+
+**Segurança:**
+- Adição camada de segurança Basic Auth 
+
+Login
+username: user
+password: **usar token gerado pelo security - log da aplicação**
+
 ```
 CRIAR PAGAMENTO   -> POST http://localhost:8080/api/payments
 EFETUAR PAGAMENTO -> PATCH http://localhost:8080/api/payments/3
