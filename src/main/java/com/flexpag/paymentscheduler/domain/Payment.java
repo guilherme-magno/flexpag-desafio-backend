@@ -1,6 +1,5 @@
 package com.flexpag.paymentscheduler.domain;
 
-import com.flexpag.paymentscheduler.PaymentSchedulerApplication;
 import com.flexpag.paymentscheduler.enums.StatusPayment;
 import lombok.Data;
 
@@ -40,4 +39,6 @@ public class Payment {
         this.date = date;
         this.status = StatusPayment.PENDING;
     }
+
+
 }
